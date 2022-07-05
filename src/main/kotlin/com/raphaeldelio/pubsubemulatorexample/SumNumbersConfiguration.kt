@@ -16,6 +16,8 @@ class SumNumbersConfiguration {
         val randomNumber1 = Random.nextInt(100)
         val randomNumber2 = Random.nextInt(100)
 
+        print("$randomNumber1+$randomNumber2=")
+
         MessageBuilder.withPayload(
             "$randomNumber1,$randomNumber2"
         ).build()
